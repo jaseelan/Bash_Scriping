@@ -1,0 +1,24 @@
+#Linux command OWASP Top 10
+
+#version of the system commands:-
+cat /etc/issue
+cat /etc/*-release
+cat /etc/lsb-release
+hostnamectl
+uname -r
+uname -o 
+uname -m
+# kernel version
+cat /proc/version
+uname -a
+uname -mrs
+
+#services are running
+ps aux
+ps -ef
+top
+cat /etc/service
+#services have root privileges
+ls -alh /usr/bin/
+ls -alh /sbin/
+# more information-> https://securityonline.info/some-useful-linux-command-for-your-penetration-testinglinux-command/?expand_article=1
